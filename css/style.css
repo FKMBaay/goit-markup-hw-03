@@ -6,9 +6,13 @@
     font-weight: 800;
 
 }
-.webinfo{
-
+.container {
+    display: flex;
 }
+.d-flex {
+    display: flex;
+}
+
 .logo {
     color: #2E2F42;
     font-family: Raleway, sans serif;
@@ -25,6 +29,13 @@ head:hover {
   
 }
 .information {
+    display: flex; 
+}
+
+/*GENERAL STYLING*/
+.list {
+    list-style: none;
+    padding-left: 0;
     display: flex;
 }
 a {
@@ -69,6 +80,7 @@ h3 {
     font-style: normal;
     font-weight: 700;
     letter-spacing: .4px;
+   
 
 }
 .doing {
