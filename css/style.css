@@ -5,7 +5,7 @@
     --white: #fff;
     --slate: #434455;
     --cornflower: #e7c9fc;
-    --loud: #f4f4fd;
+    --cloud: #f4f4fd;
 }
 
 body {
@@ -111,9 +111,9 @@ a {
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
+    color: #fff;
 }
 h2 {
-    color: white;
     text-align: center;
     font-size: 56px;
     font-family: roboto, sans serif;
@@ -160,7 +160,7 @@ h3 {
     text-align: center;
 }
 .team {
-    color: #2E2F42;
+    color: cloud#2E2F42;
     font-family: roboto, sans serif;
     font-size: 36px;
     font-style: normal;
@@ -169,9 +169,8 @@ h3 {
     
     padding-top: 120px;}
 .damas {
-    background-color: gray;
-
-}
+    background-color: var(--cloud)
+}   
 footer {
     background-color: #2E2F42;
    padding: 101.5px;
